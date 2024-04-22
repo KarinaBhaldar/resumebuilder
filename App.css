@@ -1,0 +1,175 @@
+/* resumeStyles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  width: 70%;
+  margin-left: 20px;
+}
+
+.resume-container {
+  width: 50%;
+  margin: auto;
+  background-color: #fff;
+  padding-left: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-top: 10px;
+  
+}
+
+.header {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.details {
+  margin-top: 20px;
+  line-height: 1.6;
+  font-size: 16px;
+  color:whitesmoke;
+}
+.button{
+  margin-right: 10px;
+}
+/* src/styles/ResumeForm.css */
+
+.form-container {
+  max-width: 100px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  margin-left: 40px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  color:white;
+  font-weight: bold;
+}
+
+.form-input,
+.form-textarea {
+  width: 60%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.form-textarea {
+  height: 100px;
+  resize: vertical; /* Allows the user to resize the textarea vertically */
+}
+
+.form-input[type="file"] {
+  border: none;
+}
+
+.form-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+.image-preview {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Makes the image round */
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+  margin-top: 10px;
+  border: 2px solid #ddd; /* Adds a slight border around the image */
+}
+/* Assuming the class for your resume container is 'resume-container' */
+.resume-container {
+  width: 80%;             /* Adjust the width as needed */
+  max-width: 800px;       /* Optional: set a maximum width for larger displays */
+  margin: 40px auto;      /* Top and bottom margins + auto margins for horizontal centering */
+  padding: 20px;          /* Padding inside the container for some breathing room */
+  background-color: #fff; /* Assuming a white background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for a subtle depth effect */
+  border-radius: 10px; 
+  margin-left: 30px;   /* Rounded corners for a softer look */
+}
+
+/* Additional responsive handling */
+@media (max-width: 768px) {
+  .resume-container {
+      width: 50%; /* Slightly smaller width on smaller screens */
+  }
+}
+/* src/styles/ResumeForm.css */
+
+.form-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-textarea {
+  height: 100px;
+  resize: vertical; /* Allows the user to resize the textarea vertically */
+}
+
+.form-input[type="file"] {
+  border: none;
+}
+
+.form-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+.image-preview {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Makes the image round */
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+  margin-top: 10px;
+  border: 2px solid #ddd; /* Adds a slight border around the image */
+}
